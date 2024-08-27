@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>
+
+    </title>
+</head>
+<body>
+    <h1 id="res"></h1>
+<button class="btn" value="0">0</button>
+<button class="btn" value="1">1</button>
+<button class="btn" value="2">2</button>
+<button class="btn" value="3">3</button>
+<button class="btn" value="4">4</button>
+<button class="btn" value="5">5</button>
+<button class="btn" value="6">6</button>
+<button class="btn" value="7">7</button>
+<button class="btn" value="8">8</button>
+<button class="btn" value="+">9</button>
+<button class="btn" value="*">*</button>
+<button class="btn" value="/">/</button>
+<button class="btn" value="%">%</button>
+<button class="btn" value="=">=</button>
+<button class="btn" value="clear">clear</button>
+<script>
+
+    var exp="";
+    var myvar=document.querySelectorAll(".btn");
+    for(let i=0;i<myvar.length;i++)
+
+var exp="";
+    myvar[i].addEventListener('click',function()
+(myvar[i].value==="=")
+
+
+else if(myvar[i].value==="clear")
+{
+    exp="0";
+}
+else{
+exp=exp+myvar[i].value;
+document.getElementById("res").innerHTML=exp;
+    });
+
+    </script>
+
+
+</body>
+</html>
